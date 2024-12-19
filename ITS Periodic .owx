@@ -1,0 +1,1137 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/sameeramannapperuma/ontologies/2024/11/untitled-ontology-3"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/sameeramannapperuma/ontologies/2024/11/untitled-ontology-3">
+    <Prefix name="" IRI="http://www.semanticweb.org/sameeramannapperuma/ontologies/2024/11/untitled-ontology-3/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Assessment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AtomicMass"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AtomicNumber"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Element"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ElementName"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Group"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Group1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Group13"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Group14"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Group15"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Group16"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Group17"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Group18"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Group2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Metal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Metalloid"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Non-Metal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Period"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Period1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Period2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Period3"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Period4"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Property"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Student"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Symbol"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#belongsToGroup"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isInPeriod"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#atomicMass"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#atomicNumber"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#elementName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#symbol"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Aluminum"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Argon"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Beryllium"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Boron"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Calcium"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Carbon"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chlorine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fluorine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Helium"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hydrogen"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lithium"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Magnesium"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Neon"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Nitrogen"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Oxygen"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Phosphorus"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Potassium"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Silicon"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sodium"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sulfur"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#AtomicMass"/>
+        <Class IRI="#Property"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AtomicNumber"/>
+        <Class IRI="#Property"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ElementName"/>
+        <Class IRI="#Property"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Group1"/>
+        <Class IRI="#Group"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Group13"/>
+        <Class IRI="#Group"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Group14"/>
+        <Class IRI="#Group"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Group15"/>
+        <Class IRI="#Group"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Group16"/>
+        <Class IRI="#Group"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Group17"/>
+        <Class IRI="#Group"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Group18"/>
+        <Class IRI="#Group"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Group2"/>
+        <Class IRI="#Group"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Metal"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Metalloid"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Non-Metal"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Period1"/>
+        <Class IRI="#Period"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Period2"/>
+        <Class IRI="#Period"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Period3"/>
+        <Class IRI="#Period"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Period4"/>
+        <Class IRI="#Period"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Symbol"/>
+        <Class IRI="#Property"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Group13"/>
+        <NamedIndividual IRI="#Aluminum"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Metal"/>
+        <NamedIndividual IRI="#Aluminum"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Period3"/>
+        <NamedIndividual IRI="#Aluminum"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Group18"/>
+        <NamedIndividual IRI="#Argon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Non-Metal"/>
+        <NamedIndividual IRI="#Argon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Period3"/>
+        <NamedIndividual IRI="#Argon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Group2"/>
+        <NamedIndividual IRI="#Beryllium"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Metal"/>
+        <NamedIndividual IRI="#Beryllium"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Period2"/>
+        <NamedIndividual IRI="#Beryllium"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Group13"/>
+        <NamedIndividual IRI="#Boron"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Metalloid"/>
+        <NamedIndividual IRI="#Boron"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Period2"/>
+        <NamedIndividual IRI="#Boron"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Group2"/>
+        <NamedIndividual IRI="#Calcium"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Metal"/>
+        <NamedIndividual IRI="#Calcium"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Period4"/>
+        <NamedIndividual IRI="#Calcium"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Group14"/>
+        <NamedIndividual IRI="#Carbon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Non-Metal"/>
+        <NamedIndividual IRI="#Carbon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Period2"/>
+        <NamedIndividual IRI="#Carbon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Group17"/>
+        <NamedIndividual IRI="#Chlorine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Non-Metal"/>
+        <NamedIndividual IRI="#Chlorine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Period3"/>
+        <NamedIndividual IRI="#Chlorine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Group17"/>
+        <NamedIndividual IRI="#Fluorine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Non-Metal"/>
+        <NamedIndividual IRI="#Fluorine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Period2"/>
+        <NamedIndividual IRI="#Fluorine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Group18"/>
+        <NamedIndividual IRI="#Helium"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Non-Metal"/>
+        <NamedIndividual IRI="#Helium"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Period1"/>
+        <NamedIndividual IRI="#Helium"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Group1"/>
+        <NamedIndividual IRI="#Hydrogen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Non-Metal"/>
+        <NamedIndividual IRI="#Hydrogen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Period1"/>
+        <NamedIndividual IRI="#Hydrogen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Group1"/>
+        <NamedIndividual IRI="#Lithium"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Metal"/>
+        <NamedIndividual IRI="#Lithium"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Period2"/>
+        <NamedIndividual IRI="#Lithium"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Group2"/>
+        <NamedIndividual IRI="#Magnesium"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Metal"/>
+        <NamedIndividual IRI="#Magnesium"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Period3"/>
+        <NamedIndividual IRI="#Magnesium"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Group18"/>
+        <NamedIndividual IRI="#Neon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Non-Metal"/>
+        <NamedIndividual IRI="#Neon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Period2"/>
+        <NamedIndividual IRI="#Neon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Group15"/>
+        <NamedIndividual IRI="#Nitrogen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Non-Metal"/>
+        <NamedIndividual IRI="#Nitrogen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Period2"/>
+        <NamedIndividual IRI="#Nitrogen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Group16"/>
+        <NamedIndividual IRI="#Oxygen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Non-Metal"/>
+        <NamedIndividual IRI="#Oxygen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Period2"/>
+        <NamedIndividual IRI="#Oxygen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Group15"/>
+        <NamedIndividual IRI="#Phosphorus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Non-Metal"/>
+        <NamedIndividual IRI="#Phosphorus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Period3"/>
+        <NamedIndividual IRI="#Phosphorus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Group1"/>
+        <NamedIndividual IRI="#Potassium"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Metal"/>
+        <NamedIndividual IRI="#Potassium"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Period4"/>
+        <NamedIndividual IRI="#Potassium"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Group14"/>
+        <NamedIndividual IRI="#Silicon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Metalloid"/>
+        <NamedIndividual IRI="#Silicon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Period3"/>
+        <NamedIndividual IRI="#Silicon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Group1"/>
+        <NamedIndividual IRI="#Sodium"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Metal"/>
+        <NamedIndividual IRI="#Sodium"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Period3"/>
+        <NamedIndividual IRI="#Sodium"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Group16"/>
+        <NamedIndividual IRI="#Sulfur"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Non-Metal"/>
+        <NamedIndividual IRI="#Sulfur"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Period3"/>
+        <NamedIndividual IRI="#Sulfur"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsToGroup"/>
+        <NamedIndividual IRI="#Aluminum"/>
+        <NamedIndividual IRI="#Aluminum"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isInPeriod"/>
+        <NamedIndividual IRI="#Aluminum"/>
+        <NamedIndividual IRI="#Aluminum"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsToGroup"/>
+        <NamedIndividual IRI="#Argon"/>
+        <NamedIndividual IRI="#Argon"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isInPeriod"/>
+        <NamedIndividual IRI="#Argon"/>
+        <NamedIndividual IRI="#Argon"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsToGroup"/>
+        <NamedIndividual IRI="#Beryllium"/>
+        <NamedIndividual IRI="#Beryllium"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isInPeriod"/>
+        <NamedIndividual IRI="#Beryllium"/>
+        <NamedIndividual IRI="#Beryllium"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsToGroup"/>
+        <NamedIndividual IRI="#Boron"/>
+        <NamedIndividual IRI="#Boron"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isInPeriod"/>
+        <NamedIndividual IRI="#Boron"/>
+        <NamedIndividual IRI="#Boron"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsToGroup"/>
+        <NamedIndividual IRI="#Calcium"/>
+        <NamedIndividual IRI="#Calcium"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isInPeriod"/>
+        <NamedIndividual IRI="#Calcium"/>
+        <NamedIndividual IRI="#Calcium"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsToGroup"/>
+        <NamedIndividual IRI="#Carbon"/>
+        <NamedIndividual IRI="#Carbon"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isInPeriod"/>
+        <NamedIndividual IRI="#Carbon"/>
+        <NamedIndividual IRI="#Carbon"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsToGroup"/>
+        <NamedIndividual IRI="#Chlorine"/>
+        <NamedIndividual IRI="#Chlorine"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isInPeriod"/>
+        <NamedIndividual IRI="#Chlorine"/>
+        <NamedIndividual IRI="#Chlorine"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsToGroup"/>
+        <NamedIndividual IRI="#Fluorine"/>
+        <NamedIndividual IRI="#Fluorine"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isInPeriod"/>
+        <NamedIndividual IRI="#Fluorine"/>
+        <NamedIndividual IRI="#Fluorine"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsToGroup"/>
+        <NamedIndividual IRI="#Helium"/>
+        <NamedIndividual IRI="#Helium"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isInPeriod"/>
+        <NamedIndividual IRI="#Helium"/>
+        <NamedIndividual IRI="#Helium"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsToGroup"/>
+        <NamedIndividual IRI="#Hydrogen"/>
+        <NamedIndividual IRI="#Hydrogen"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isInPeriod"/>
+        <NamedIndividual IRI="#Hydrogen"/>
+        <NamedIndividual IRI="#Hydrogen"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsToGroup"/>
+        <NamedIndividual IRI="#Lithium"/>
+        <NamedIndividual IRI="#Lithium"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isInPeriod"/>
+        <NamedIndividual IRI="#Lithium"/>
+        <NamedIndividual IRI="#Lithium"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsToGroup"/>
+        <NamedIndividual IRI="#Magnesium"/>
+        <NamedIndividual IRI="#Magnesium"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isInPeriod"/>
+        <NamedIndividual IRI="#Magnesium"/>
+        <NamedIndividual IRI="#Magnesium"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsToGroup"/>
+        <NamedIndividual IRI="#Neon"/>
+        <NamedIndividual IRI="#Neon"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isInPeriod"/>
+        <NamedIndividual IRI="#Neon"/>
+        <NamedIndividual IRI="#Neon"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsToGroup"/>
+        <NamedIndividual IRI="#Nitrogen"/>
+        <NamedIndividual IRI="#Nitrogen"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isInPeriod"/>
+        <NamedIndividual IRI="#Nitrogen"/>
+        <NamedIndividual IRI="#Nitrogen"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsToGroup"/>
+        <NamedIndividual IRI="#Oxygen"/>
+        <NamedIndividual IRI="#Oxygen"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isInPeriod"/>
+        <NamedIndividual IRI="#Oxygen"/>
+        <NamedIndividual IRI="#Oxygen"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsToGroup"/>
+        <NamedIndividual IRI="#Phosphorus"/>
+        <NamedIndividual IRI="#Phosphorus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isInPeriod"/>
+        <NamedIndividual IRI="#Phosphorus"/>
+        <NamedIndividual IRI="#Phosphorus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsToGroup"/>
+        <NamedIndividual IRI="#Potassium"/>
+        <NamedIndividual IRI="#Potassium"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isInPeriod"/>
+        <NamedIndividual IRI="#Potassium"/>
+        <NamedIndividual IRI="#Potassium"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsToGroup"/>
+        <NamedIndividual IRI="#Silicon"/>
+        <NamedIndividual IRI="#Silicon"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isInPeriod"/>
+        <NamedIndividual IRI="#Silicon"/>
+        <NamedIndividual IRI="#Silicon"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsToGroup"/>
+        <NamedIndividual IRI="#Sodium"/>
+        <NamedIndividual IRI="#Sodium"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isInPeriod"/>
+        <NamedIndividual IRI="#Sodium"/>
+        <NamedIndividual IRI="#Sodium"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsToGroup"/>
+        <NamedIndividual IRI="#Sulfur"/>
+        <NamedIndividual IRI="#Sulfur"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isInPeriod"/>
+        <NamedIndividual IRI="#Sulfur"/>
+        <NamedIndividual IRI="#Sulfur"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#atomicMass"/>
+        <NamedIndividual IRI="#Aluminum"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">26.982</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#atomicNumber"/>
+        <NamedIndividual IRI="#Aluminum"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">13</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#elementName"/>
+        <NamedIndividual IRI="#Aluminum"/>
+        <Literal>Aluminum</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#symbol"/>
+        <NamedIndividual IRI="#Aluminum"/>
+        <Literal>Al</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#atomicMass"/>
+        <NamedIndividual IRI="#Argon"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">39.95</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#atomicNumber"/>
+        <NamedIndividual IRI="#Argon"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">18</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#elementName"/>
+        <NamedIndividual IRI="#Argon"/>
+        <Literal>Argon</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#symbol"/>
+        <NamedIndividual IRI="#Argon"/>
+        <Literal>Ar</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#atomicMass"/>
+        <NamedIndividual IRI="#Beryllium"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">9.0122</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#atomicNumber"/>
+        <NamedIndividual IRI="#Beryllium"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#elementName"/>
+        <NamedIndividual IRI="#Beryllium"/>
+        <Literal>Be</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#elementName"/>
+        <NamedIndividual IRI="#Beryllium"/>
+        <Literal>Beryllium</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#atomicMass"/>
+        <NamedIndividual IRI="#Boron"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">10.81</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#atomicNumber"/>
+        <NamedIndividual IRI="#Boron"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#elementName"/>
+        <NamedIndividual IRI="#Boron"/>
+        <Literal>Boron</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#symbol"/>
+        <NamedIndividual IRI="#Boron"/>
+        <Literal>B</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#atomicMass"/>
+        <NamedIndividual IRI="#Calcium"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">40.08</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#atomicNumber"/>
+        <NamedIndividual IRI="#Calcium"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">20</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#elementName"/>
+        <NamedIndividual IRI="#Calcium"/>
+        <Literal>Calcium</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#symbol"/>
+        <NamedIndividual IRI="#Calcium"/>
+        <Literal>Ca</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#atomicMass"/>
+        <NamedIndividual IRI="#Carbon"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">12.011</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#atomicNumber"/>
+        <NamedIndividual IRI="#Carbon"/>
+        <Literal>6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#elementName"/>
+        <NamedIndividual IRI="#Carbon"/>
+        <Literal>Cabon</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#symbol"/>
+        <NamedIndividual IRI="#Carbon"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">C</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#atomicMass"/>
+        <NamedIndividual IRI="#Chlorine"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">35.45</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#atomicNumber"/>
+        <NamedIndividual IRI="#Chlorine"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">17</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#elementName"/>
+        <NamedIndividual IRI="#Chlorine"/>
+        <Literal>Chlorine</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#symbol"/>
+        <NamedIndividual IRI="#Chlorine"/>
+        <Literal>Cl</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#atomicMass"/>
+        <NamedIndividual IRI="#Fluorine"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">18.998</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#atomicNumber"/>
+        <NamedIndividual IRI="#Fluorine"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">9</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#elementName"/>
+        <NamedIndividual IRI="#Fluorine"/>
+        <Literal>Fluorine</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#symbol"/>
+        <NamedIndividual IRI="#Fluorine"/>
+        <Literal>F</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#atomicMass"/>
+        <NamedIndividual IRI="#Helium"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.0026</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#atomicNumber"/>
+        <NamedIndividual IRI="#Helium"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#elementName"/>
+        <NamedIndividual IRI="#Helium"/>
+        <Literal>Helium</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#symbol"/>
+        <NamedIndividual IRI="#Helium"/>
+        <Literal>H</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#atomicMass"/>
+        <NamedIndividual IRI="#Hydrogen"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1.008</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#atomicNumber"/>
+        <NamedIndividual IRI="#Hydrogen"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#elementName"/>
+        <NamedIndividual IRI="#Hydrogen"/>
+        <Literal>Hydrogen</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#symbol"/>
+        <NamedIndividual IRI="#Hydrogen"/>
+        <Literal>H</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#atomicMass"/>
+        <NamedIndividual IRI="#Lithium"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">6.94</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#atomicNumber"/>
+        <NamedIndividual IRI="#Lithium"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#elementName"/>
+        <NamedIndividual IRI="#Lithium"/>
+        <Literal>Lithium</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#symbol"/>
+        <NamedIndividual IRI="#Lithium"/>
+        <Literal>Li</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#atomicMass"/>
+        <NamedIndividual IRI="#Magnesium"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">24.305</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#atomicNumber"/>
+        <NamedIndividual IRI="#Magnesium"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">12</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#elementName"/>
+        <NamedIndividual IRI="#Magnesium"/>
+        <Literal>Magnesium</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#symbol"/>
+        <NamedIndividual IRI="#Magnesium"/>
+        <Literal>Mg</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#atomicMass"/>
+        <NamedIndividual IRI="#Neon"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">20.180</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#atomicNumber"/>
+        <NamedIndividual IRI="#Neon"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#elementName"/>
+        <NamedIndividual IRI="#Neon"/>
+        <Literal>Neon</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#symbol"/>
+        <NamedIndividual IRI="#Neon"/>
+        <Literal>N</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#atomicMass"/>
+        <NamedIndividual IRI="#Nitrogen"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">14.007</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#atomicNumber"/>
+        <NamedIndividual IRI="#Nitrogen"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#elementName"/>
+        <NamedIndividual IRI="#Nitrogen"/>
+        <Literal>Nitrogen</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#symbol"/>
+        <NamedIndividual IRI="#Nitrogen"/>
+        <Literal>N</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#atomicMass"/>
+        <NamedIndividual IRI="#Oxygen"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">15.999</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#atomicNumber"/>
+        <NamedIndividual IRI="#Oxygen"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#elementName"/>
+        <NamedIndividual IRI="#Oxygen"/>
+        <Literal>Oxygen</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#symbol"/>
+        <NamedIndividual IRI="#Oxygen"/>
+        <Literal>O</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#atomicMass"/>
+        <NamedIndividual IRI="#Phosphorus"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">30.974</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#atomicNumber"/>
+        <NamedIndividual IRI="#Phosphorus"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">15</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#elementName"/>
+        <NamedIndividual IRI="#Phosphorus"/>
+        <Literal>Phosphorus</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#symbol"/>
+        <NamedIndividual IRI="#Phosphorus"/>
+        <Literal>P</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#atomicMass"/>
+        <NamedIndividual IRI="#Potassium"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">39.10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#atomicNumber"/>
+        <NamedIndividual IRI="#Potassium"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">19</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#elementName"/>
+        <NamedIndividual IRI="#Potassium"/>
+        <Literal>Potassium</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#symbol"/>
+        <NamedIndividual IRI="#Potassium"/>
+        <Literal>K</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#atomicMass"/>
+        <NamedIndividual IRI="#Silicon"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">28.085</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#atomicNumber"/>
+        <NamedIndividual IRI="#Silicon"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">14</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#elementName"/>
+        <NamedIndividual IRI="#Silicon"/>
+        <Literal>Silicon</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#symbol"/>
+        <NamedIndividual IRI="#Silicon"/>
+        <Literal>Si</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#atomicMass"/>
+        <NamedIndividual IRI="#Sodium"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">22.990</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#atomicNumber"/>
+        <NamedIndividual IRI="#Sodium"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">11</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#elementName"/>
+        <NamedIndividual IRI="#Sodium"/>
+        <Literal>Sodium</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#symbol"/>
+        <NamedIndividual IRI="#Sodium"/>
+        <Literal>Na</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#atomicMass"/>
+        <NamedIndividual IRI="#Sulfur"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">32.06</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#atomicNumber"/>
+        <NamedIndividual IRI="#Sulfur"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">16</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#elementName"/>
+        <NamedIndividual IRI="#Sulfur"/>
+        <Literal>Sulfur</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#symbol"/>
+        <NamedIndividual IRI="#Sulfur"/>
+        <Literal>S</Literal>
+    </DataPropertyAssertion>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#belongsToGroup"/>
+        <Class IRI="#Element"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isInPeriod"/>
+        <Class IRI="#Element"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#belongsToGroup"/>
+        <Class IRI="#Group"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isInPeriod"/>
+        <Class IRI="#Period"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#atomicMass"/>
+        <Class IRI="#Element"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#atomicNumber"/>
+        <Class IRI="#Element"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#elementName"/>
+        <Class IRI="#Element"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#symbol"/>
+        <Class IRI="#Element"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#atomicMass"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#atomicNumber"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#elementName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#symbol"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
